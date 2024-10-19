@@ -29,9 +29,6 @@ const TourCard = ({tour}) => {
                 {totalRating ===0 ? ('No Rated') :( <span>
                         ({reviews.length})
                     </span>)}
-                    {/* <span>
-                        ({reviews.length})
-                    </span> */}
                 </span>
             </div>
 
